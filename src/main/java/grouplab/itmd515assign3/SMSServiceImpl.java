@@ -13,6 +13,6 @@ public class SMSServiceImpl implements MessageService
 	public void sendMessage(String msg, String rec)
 	{
 		// Logic to send SMS
-		System.out.println("SMS sent to " + rec + " with Message=" + msg);
+		System.out.println("SMS sent to " + rec + " with Message = " + msg + "!");
 	}
 }

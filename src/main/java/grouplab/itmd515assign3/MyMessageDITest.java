@@ -14,7 +14,7 @@ public class MyMessageDITest
 	{
 		String msg = "Hi Deborah";
 		String email = "dbarndt@hawk.iit.edu";
-		String phone = "8888675309";
+		String phone = "(888)867-5309";
 		MessageServiceInjector injector = null;
 		Consumer app = null;
 		

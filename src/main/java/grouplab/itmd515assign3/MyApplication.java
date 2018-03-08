@@ -17,6 +17,10 @@ public class MyApplication
 		this.email=svc;
 	}
 	
+	public MyApplication() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void processMessages(String msg, String rec)
 	{
 		// Do some message validation, manipulation logic, etc.

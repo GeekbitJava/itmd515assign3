@@ -24,7 +24,7 @@ public class MyDIApplicationJUnitTest {
 				return new MyDIApplication(new MessageService() {
 					
 					public void sendMessage(String msg, String rec) {
-						System.out.println("Mock Message Service implementation");
+						System.out.println("Mock Message Service Implementation");
 						
 					}
 				});

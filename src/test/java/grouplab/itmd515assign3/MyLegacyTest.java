@@ -12,8 +12,7 @@ public class MyLegacyTest
 {
 	public static void main(String[] args)
 	{
-		MyApplication app = new MyApplication(null);
-		
+		MyApplication app = new MyApplication();
 		app.processMessages("Hi Deborah", "dbarndt@hawk.iit.edu");
 	}
 }
