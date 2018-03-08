@@ -17,13 +17,16 @@ public class MyDIApplication implements Consumer
 		this.service=svc;
 	}
 	
+	public MyDIApplication() {
+		
+	}
+	
 	// Setter dependency injection
 	public void setService(MessageService service)
 	{
 		this.service = service;
 	}
 	
-	@Override
 	public void processMessages(String msg, String rec) 
 	{
 		// Do some msg validation, manipulation logic, etc.
