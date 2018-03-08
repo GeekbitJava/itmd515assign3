@@ -3,9 +3,9 @@ package grouplab.itmd515assign3;
 /*
 	Deborah Barndt
 	3-8-18
-	MyLegacyTest.java
+	MyDIApplicationJUnitTest.java
 	Programming Assignment 3
-	This is program holds the MyLegacyTest class.
+	This is program holds the MyDIApplicationJUnitTest class.
 */
 
 import org.junit.After;
