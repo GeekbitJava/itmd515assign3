@@ -12,9 +12,15 @@ public class MyDIApplication implements Consumer
 {
 	private MessageService service;
 	
-	public MyDIApplication(MessageService svc)
+	public MyDIApplication()
 	{
-		this.service=svc;
+		
+	}
+	
+	// Setter dependency injection
+	public void setService(MessageService service)
+	{
+		this.service = service;
 	}
 	
 	@Override
