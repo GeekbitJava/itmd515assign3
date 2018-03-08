@@ -1,12 +1,11 @@
 package grouplab.itmd515assign3;
 
 /*
-Deborah Barndt
-Thomas Boller
-3-8-18
-EmailService.java
-Programming Assignment 3
-This is program holds the EmailService class.
+	Deborah Barndt
+	3-8-18
+	EmailService.java
+	Programming Assignment 3
+	This is program holds the EmailService class.
 */
 
 public class EmailService 
