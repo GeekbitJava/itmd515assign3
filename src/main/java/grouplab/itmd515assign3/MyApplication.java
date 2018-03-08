@@ -11,7 +11,12 @@ package grouplab.itmd515assign3;
 
 public class MyApplication 
 {
-	private EmailService email = new EmailService();
+	private EmailService email = null;
+	
+	public MyApplication(EmailService svc)
+	{
+		this.email=svc;
+	}
 	
 	public void processMessages(String msg, String rec)
 	{
