@@ -10,17 +10,10 @@ package grouplab.itmd515assign3;
 
 public class EmailServiceImpl implements MessageService
 {
-
-	public void sendMessage(String msg, String rec) {
-		// TODO Auto-generated method stub
-		System.out.println("Email sent to " + rec + " with Message = " + msg + "!");
-	}
-	
-	
-	/*@Override
+	@Override
 	public void sendMessage(String msg, String rec)
 	{
 		// Logic to send email
-		System.out.println("Email sent to " + rec + " with Message=" + msg);
-	}*/
+		System.out.println("Email sent to " + rec + " with Message = " + msg + "!");
+	}
 }

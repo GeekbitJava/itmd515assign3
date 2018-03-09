@@ -10,6 +10,7 @@ package grouplab.itmd515assign3;
 
 public class SMSServiceImpl implements MessageService
 {
+	@Override
 	public void sendMessage(String msg, String rec)
 	{
 		// Logic to send SMS

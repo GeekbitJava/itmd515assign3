@@ -14,16 +14,22 @@ import org.junit.Test;
 
 public class MyDIApplicationJUnitTest {
 	private MessageServiceInjector injector;
+	
 	@Before
-	public void setUp(){
+	public void setUp()
+	{
 		//mock the injector with anonymous class
-		injector = new MessageServiceInjector() {
+		injector = new MessageServiceInjector() 
+		{
 			
-			public Consumer getConsumer() {
+			public Consumer getConsumer() 
+			{
 				//mock the message service
-				return new MyDIApplication(new MessageService() {
+				return new MyDIApplication(new MessageService() 
+				{
 					
-					public void sendMessage(String msg, String rec) {
+					public void sendMessage(String msg, String rec) 
+					{
 						System.out.println("Mock Message Service Implementation");
 						
 					}
@@ -33,13 +39,15 @@ public class MyDIApplicationJUnitTest {
 	}
 	
 	@Test
-	public void test() {
+	public void test() 
+	{
 		Consumer consumer = injector.getConsumer();
 		consumer.processMessages("Hi Pankaj", "pankaj@abc.com");
 	}
 	
 	@After
-	public void tear(){
+	public void tear()
+	{
 		injector = null;
 	}
 

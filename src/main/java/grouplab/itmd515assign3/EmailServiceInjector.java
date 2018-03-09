@@ -10,6 +10,7 @@ package grouplab.itmd515assign3;
 
 public class EmailServiceInjector implements MessageServiceInjector
 {
+	@Override
 	public Consumer getConsumer()
 	{
 		MyDIApplication app = new MyDIApplication();

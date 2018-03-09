@@ -27,6 +27,7 @@ public class MyDIApplication implements Consumer
 		this.service = service;
 	}
 	
+	@Override
 	public void processMessages(String msg, String rec) 
 	{
 		// Do some msg validation, manipulation logic, etc.
